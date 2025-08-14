@@ -62,7 +62,7 @@ function App() {
             key={index}
             image={product.image}
             name={product.name}
-            price={`₱{product.price.toLocaleString()}`} 
+            price={`${product.price.toLocaleString()}`} 
             description={product.description}
           />
         ))}
